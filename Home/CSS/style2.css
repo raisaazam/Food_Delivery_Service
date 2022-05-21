@@ -1,0 +1,194 @@
+.container{
+    
+    border : none;
+    width: 80% ;
+    margin: auto;
+ 
+    
+}
+
+.navbar-brand{
+font-family: 'Ubuntu' , sans-serif ;
+    font-size: 2em ;
+    font-weight: bolder;
+   color: aliceblue;
+    text-decoration: none;
+  
+}
+
+
+/* change Navigation color */
+.navbar #myMenu .custom-nav .nav-item a{
+   
+    font-weight: bolder;
+    color:  #F0aab1;
+  
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #fff ;
+}
+.navbar{
+   
+    width: 100% ;
+    background-color: #df4759;
+}
+
+.text-right{
+    text-align: right;
+ 
+}
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    padding: 1% ;
+    font-size: 1rem;
+    border: none ;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #df4759;
+    color: white;
+    cursor: pointer;
+    text-decoration: none ;
+}
+.btn-primary:hover{
+    background-color: #ff4757;
+}
+.clearfix{
+    clear: both;
+    float: none ;
+}
+.collapse{
+    line-height: 40px ;
+}
+.collapse ul{
+    list-style-type: none;
+}
+.collapse ul li{
+    display: inline ;
+    text-align: center;
+    padding: 1% ;
+   
+}
+/*search section
+*/
+.search{
+    background-image: url(../images/image1.jpg);
+    background-size: cover ;
+    background-position: center center ;
+    background-repeat: no-repeat ;
+    min-height: 100vh ;
+    border-radius: 0px ;
+    
+   
+}
+.search input[type="search"]{
+    border: none ;
+    width: 50% ;
+    padding: 1% ;
+    font-size: 1rem ;
+    margin-top: 15% ;
+    border-radius: 5px;
+}
+/* genre section
+*/
+.genre{
+    padding: 5% 2%  ;
+    padding-bottom: 15% ;
+}
+.box{
+    border: none ;
+    width: 22% ;
+    float: left;
+    margin: 1% ;
+}
+.img-responsive{
+    width: 100% ;
+}
+.img-radious{
+    border-radius: 50px;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    left: 35% ;
+}
+/* chef section
+*/
+.chef{
+    padding: 7% 2%  ;
+    padding-bottom: 20% ;
+}
+/* food menu section
+*/
+.food-menu{
+    background-color: #ECF0F1;
+    padding: 4% 0%  ;
+    padding-bottom: 5% ;
+}
+.menu{
+    border: 1px solid black ;
+    width: 43% ;
+    margin: 1% ;
+    padding: 2% ;
+    float: left ;
+    background-color: white ;
+    border-radius: 15px ;
+}
+.food-menu-img{
+    width: 20% ;
+    height: 25% ;
+    float: left ;
+    padding-top: 4% ;
+    border-radius: 15px ;
+}
+.food-menu-desc{
+    width: 70% ;
+    float: left;
+    margin-left: 8% ;
+}
+.food-price{
+    font-size: 1.2rem ;
+    margin: 2% 0 ;
+    
+}
+.food-detail{
+    font-size: 1rem ;
+    color: #2C3E50  ;
+}
+/* footer section
+*/
+.footer{
+    background-color: black;
+}
+.follow{
+    font-size: 1.5rem ;
+   color: aliceblue ;
+}
+.footer ul{
+    list-style-type: none ;
+    display: inline ;
+    padding: 1% ;
+   
+}
+.footer ul li{
+    display: inline ;
+    padding: 0.50% ;
+}
+.form-control{
+    width: 800px ;
+    padding: 10px ;
+}
+@media only 
+    .food-menu{
+        padding : 20% 0 ;
+}
+/*.menu{
+    width: 90% ;
+    padding: 5% ;
+    margin-bottom: 5% ;
+}*/
